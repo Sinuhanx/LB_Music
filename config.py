@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
+OWNER_ID = int(getenv("OWNER_ID", "6248129136"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -77,21 +77,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/3c3ab79fba0fa91a4ae8e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/c603be89cbd04d9d49ebd.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STATS_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STREAM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/b838a5d402196d30068ce.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/3c3ab79fba0fa91a4ae8e.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b838a5d402196d30068ce.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b838a5d402196d30068ce.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/bd24003547eb253e2bb9a.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/bd24003547eb253e2bb9a.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/8d050586cd6693e8f2ee6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/8d050586cd6693e8f2ee6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c71f53a6d7ac49f57e9b8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/c71f53a6d7ac49f57e9b8.jpg"
 
 
 def time_to_seconds(time):
